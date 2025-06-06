@@ -88,5 +88,38 @@ color:inherit;
         transform:translateY(0);
     }
 }
+.legacy-section{
+    padding:5rem 2rem;
+    background-color: #fff4e6;
+}
+.legacy-container{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: center;
+   align-items: center;
+   max-width: 1200px;
+   margin:auto;
+   gap:3rem;
+}
+.legacy-text{
+    font-size: 1.1rem;
+    line-height:1.8;
+    color:#4b2e10;
+}
+.Legacy-image{
+    flex:1;
+    min-width: 300px;
+    text-align:center;
+}
+.Legacy-image img{
+    max-width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+    transition:transform 0.4s ease;
+}
+.Legacy-image img:hover{
+    transform:scale(1.03);
+}
+
 
 
